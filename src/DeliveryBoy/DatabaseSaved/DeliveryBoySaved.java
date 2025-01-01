@@ -6,8 +6,8 @@ import java.sql.*;
 public class DeliveryBoySaved {
 
     private static final String URL = "jdbc:mysql://localhost:3306/wantsomething";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Zafer6231@";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     public void DeliveryBoyDetailSave(String name,String education,int age,String address,String panNo,int boyid) throws SQLException {
         String insertSQL = "INSERT INTO deliveryboydetail (name,education,age,address,pancard,boyid) VALUES (?, ?, ?, ?, ?, ?)";
